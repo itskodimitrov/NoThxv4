@@ -1,0 +1,90 @@
+body{
+    background-color: #39225A;
+}
+
+.main_CodesCon{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tenper_Main{
+    justify-content: center;
+    background-image: linear-gradient(135deg, #740261, #d6adf300);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.tenper_Img{
+    display: flex;
+    align-self: start;
+    align-items: center;
+    background-image: linear-gradient(135deg, #2d9bdb98, #2d9bdb00);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.image_Codes{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+}
+
+.promo_Con{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-image: linear-gradient(135deg, #2d9bdb98, #2d9bdb00);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.promo_Con1 {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-image: linear-gradient(135deg, #f2a5178a, #2d9bdb00);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.promocode{
+    width: 200px;
+    height: auto;
+}
+
+.fiveper_Main{
+    justify-content: center;
+    background-image: linear-gradient(135deg, #740261, #d6adf300);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.fiveper_Img{
+    display: flex;
+    align-self: start;
+    align-items: center;
+    height: 160px;
+    background-image: linear-gradient(135deg, #f2a5178a, #2d9bdb00);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .main_CodesCon {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    .tenper_Img{
+        flex-direction: column;
+    }
+}

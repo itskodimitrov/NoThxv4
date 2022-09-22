@@ -1,0 +1,304 @@
+@font-face {
+    font-family: "FuturaPTBold";
+    src: url(../fonts/FuturaPTBold.otf);
+}
+
+@font-face {
+    font-family: "FuturaPTHeavy";
+    src: url(../fonts/FuturaPTHeavy.otf);
+}
+
+@font-face {
+    font-family: "FuturaPTExtraBoldOblique";
+    src: url(../fonts/FuturaPTExtraBoldOblique.otf);
+}
+
+@font-face {
+    font-family: "FuturaPTLightOblique";
+    src: url(../fonts/FuturaPTLightOblique.otf);
+}
+
+.ads_Con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.ads_Card{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(145deg, #74026181, #74026100);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s ease-in;
+}
+
+.ads_Card:hover{
+    box-shadow: 0px 0px 20px #bd009d;
+    transition: .5s ease;
+}
+
+.ads_Card:hover .ads_par{
+    display: block;
+}
+
+.ads_Card:hover .image_Ads{
+    display: none;
+}
+
+.image_Ads{
+    display: block;
+    width: 150px;
+    height: auto;
+    transition: .5s ease-out;
+}
+
+.ads_infoText{
+    color: white;
+    font-family: 'KelsonRegular';
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    margin: 10px;
+}
+
+.ads_par{
+    display: none;
+    color: white;
+    font-family: 'KelsonLight';
+    font-size: 17px;
+    max-width: 170px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.askme{
+    color: white;
+    font-family: 'KelsonBold';
+    font-size: 30px;
+    border-radius: 20px;
+    stroke: 1px solid black;
+    border: 2px solid black;
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: #740261;
+}
+
+.askme:hover{
+    background-color: #F2A517;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.askme:focus{
+    background-color: red;
+}
+
+.nqmame {
+    display: none;
+}
+
+.nqmame1{
+    display: none;
+}
+
+.nqmame2{
+    display: none;
+}
+
+.nqmame3{
+    display: none;
+}
+
+.nqmame4{
+    display: none;
+}
+
+.nqmame5{
+    display: none;
+}
+
+.nqmame6{
+    display: none;
+}
+
+.nqmame7{
+    display: none;
+}
+
+.contact_Form{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    padding: 20px;
+    margin: 20px;
+
+    background-image: linear-gradient(145deg, #740261, #7402617e);
+    border-radius: 20px;
+    transition: 1s ease;
+}
+
+.contact_Form1 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform:translateX(-50%);
+    padding: 20px;
+    margin: 20px;
+
+    background-image: linear-gradient(145deg, #740261, #7402617e);
+    border-radius: 20px;
+}
+
+.background_Dark{
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateY(-50%) translateX(-50%);
+    filter: opacity(80%);
+}
+
+.sth{
+    background-color: #190f2700;
+    outline: none;
+    border: none;
+    align-self: flex-end;
+}
+
+.close{
+    width: 40px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.close:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px #8850BF);
+    transform: translateY(-5px);
+    transform: rotate(5deg);
+    transition: .5s ease;
+}
+
+.sth:focus{
+    outline: none;
+    background-color: rgba(255, 0, 195, 0.16);
+}
+
+.input_Style{
+    color: white;
+    font-size: 16px;
+    font-family: 'KelsonLight';
+
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    min-width: 500px;
+    max-width: 500px;
+
+    border: none;
+    border-bottom: 2px solid #8850BF;
+    border-left: 2px solid #8850BF;
+    background-color: #190f2700;
+    border-radius: 10px;
+}
+
+.input_Style:hover{
+    background-color: #190f279d;
+    transition: .5s ease-in-out;
+}
+
+.input_Style[type=text]:focus{
+    outline: none;
+    background-color: #190f279d;
+    box-shadow: 0px 0px 10px #8850BF;
+}
+
+.textbox{
+    color: white;
+    font-size: 16px;
+    font-family: 'KelsonLight';
+    
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    
+    border: none;
+    border-bottom: 2px solid #8850BF;
+    border-left: 2px solid #8850BF;
+    background-color: #190f2700;
+    border-radius: 10px;
+}
+
+.textbox:hover {
+    background-color: #190f279d;
+    transition: .5s ease-in-out;
+}
+
+.textbox:focus {
+    outline: none;
+    background-color: #190f279d;
+    box-shadow: 0px 0px 10px #8850BF;
+}
+
+.send{
+    color: white;
+    font-size: 18px;
+    font-family: 'KelsonBold';
+
+    appearance: none;
+    padding: 10px;
+    margin: 10px;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #190F27;
+}
+
+.send:hover{
+    cursor: pointer;
+    transform: translateX(-5px);
+    background-color: #8850BF;
+    box-shadow: 0px 0px 10px #8850BF;
+    transition: .4s ease-in;
+}
+
+.reset {
+    color: white;
+    font-size: 18px;
+    font-family: 'KelsonBold';
+
+    appearance: none;
+    padding: 10px;
+    margin: 10px;
+
+    border: 2px solid #8850BF;
+    border-radius: 10px;
+    background-color: #190f2700;
+}
+
+.reset:hover {
+    cursor: pointer;
+    transform: translateX(-5px);
+    background-color: #8850BF;
+    box-shadow: 0px 0px 10px #8850BF;
+    transition: .4s ease-in;
+}

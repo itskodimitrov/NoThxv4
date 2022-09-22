@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "KelsonLight";
+    src: url(../fonts/Kelson\ Sans\ Light\ BG.otf);
+}
+
+@font-face {
+    font-family: "KelsonRegular";
+    src: url(../fonts/Kelson\ Sans\ Regular\ BG.otf);
+}
+
+@font-face {
+    font-family: "KelsonBold";
+    src: url(../fonts/KelsonSansBG-Bold.ttf);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #39225A;
+}
+
+.nav_Con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #190F27;
+    min-height: 80px;
+    z-index: 1000;
+    filter: drop-shadow(0px 0px 20px #39225A);
+}
+
+.nav_Left{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_Logo{
+    width: 60px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+.T1{
+    color: white;
+    font-family: "KelsonBold";
+    font-size: 25px;
+}
+
+.nav_Right{
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.nav_Links{
+    display: flex;
+    list-style: none;
+}
+
+.nav_Links li{
+    color: white;
+    padding: 7px;
+    margin: 7px;
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav_Links li:hover{
+    background-color: #8850bf94;
+    transform: translateY(-3px);
+    transition: .5s ease-in-out;
+}
+
+.nav_Links li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'KelsonLight';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#active{
+    background-color: #8850BF;
+    cursor: default;
+}
+
+.mobile_Icon{
+    display: none;
+}
+
+.mobile_Icon div{
+    width: 40px;
+    height: 6px;
+    margin: 7px;
+    border-radius: 10%;
+    background-color: #8850BF;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.banner_Left{
+    background-image: linear-gradient(135deg, #5a368d73, #d6adf315);
+    border-radius: 20px;
+}
+
+.bannerImg{
+    width: 50%;
+    height: auto;
+}
+
+.banner_Title{
+    color: white;
+    font-size: 78px;
+    font-family: "KelsonBold";
+    text-decoration: underline;
+    text-underline-offset: -25%;
+    text-decoration-color: #F39057;
+    text-decoration-thickness: 30%;
+    text-decoration-skip-ink: none;
+    margin: 20px;
+}
+
+.banner_info{
+    color: white;
+    font-size: 48px;
+    font-family: 'KelsonLight';
+    max-width: 600px;
+    margin: 20px;
+}
+
+#info_Text{
+    position: absolute;
+    bottom: 200px;
+    left: 5%;
+    width: 45%;
+    height: auto;
+}
+
+.info{
+    color: white;
+    font-family: "FuturaPTLightOblique";
+    font-size: 24px;
+}
+
+.follow_Count{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+    background-color: #39225A;
+    filter: drop-shadow(0px 0px 20px #39225A);
+    z-index: -10;
+}
+
+.flex_Count{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    width: 150px;
+    stroke: none;
+    visibility: hidden;
+}
+
+.con_Count{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.hover_Con{
+    width: 70px;
+    height: auto;
+}
+
+.hover_Con:hover{
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 20px #9742ec );
+    transition: .5s ease-in;
+    padding: 5px;
+}
+
+
+.T2_Count{
+    color: white;
+    font-family: "KelsonBold";
+    font-size: 32px;
+    margin: 25px;
+}
+
+.title_Section{
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    font-family: "KelsonBold";
+    text-decoration: underline;
+    text-underline-offset: -25%;
+    text-decoration-color: #F39057;
+    text-decoration-thickness: 30%;
+    text-decoration-skip-ink: none;
+}
+
+.center{
+    justify-content: center;
+    align-self: center;
+}
+
+.moreforme_Con{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.kocetophoto {
+    width: 400px;
+    height: auto;
+}
+
+.koceto2 {
+    width: 400px;
+    height: auto;
+}
+
+.first_Part{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_Koce{
+    color: white;
+    font-size: 22px;
+    font-family: 'KelsonLight';
+    font-weight: lighter;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(145deg, #74026183, #74026100);
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.info_KoceRight{
+    color: white;
+    font-size: 22px;
+    font-family: 'KelsonLight';
+    font-weight: lighter;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(190deg, #74026183, #74026100);
+    border-radius: 20px;
+    text-align: right;
+    max-width: 700px;
+}
+
+.merch_ConMain{
+    background-color: #39225A;
+    text-align: center;
+    padding: 25px;
+}
+
+.title_Section_Merch{
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.example_Merch{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seeMore_Btn{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'KelsonBold';
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-image: linear-gradient( #740261, #7402612a, #74026100);
+    border-radius: 10px;
+}
+
+.seeMore_Btn:hover{
+    background-image: linear-gradient(#F2A517, #f2a5171f, #f2a51700);
+    transition: .5s ease;
+}
+
+.main_Abs{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sponsor_Con{
+    background-color: #39225A;
+    padding: 30px;
+}
+
+.icon_Sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image_Sponsor1{
+    width: 340px;
+    height: 267px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image_Sponsor1:hover{
+    filter: drop-shadow(0px 0px 20px #F2A517);
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+
+.image_Sponsor2:hover {
+    filter: drop-shadow(0px 0px 20px #F2A517);
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+
+.image_Sponsor3:hover {
+    filter: drop-shadow(0px 0px 20px #F2A517);
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+
+.image_Sponsor4:hover {
+    filter: drop-shadow(0px 0px 20px #F2A517);
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+
+.image_Sponsor5:hover {
+    filter: drop-shadow(0px 0px 20px #F2A517);
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+
+.image_Sponsor2{
+    width: 156px;
+    height: 267px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image_Sponsor3 {
+    width: 340px;
+    height: 88px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image_Sponsor4 {
+    width: 340px;
+    height: 123px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image_Sponsor5 {
+    width: 340px;
+    height: 98px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #39225A;
+}
+
+.social_Links{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center; 
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.link_Icon{
+    margin: 20px;
+    padding: 20px;
+    background-color: #190F27;
+    border-radius: 10px;
+}
+
+.link_Icon:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px #a200ff);
+    transform: translateY(-5px);
+    transition: .5s ease-in-out;
+}
+
+.footer_CR{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.449);
+    font-family: 'KelsonLight';
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.line{
+    border: 1px solid #740261;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav_Links{
+        position: absolute;
+        right: 0;
+        top: 80px;
+        height: 92vh;
+        background-color: #190F27;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: right;
+        transition: .5s ease-in;
+        transform: translateX(100%);
+        z-index: 1000;
+    }
+
+
+    .nav_Links li a{
+        font-size: 38px;
+    }
+
+    .mobile_Icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .banner_Title{
+        text-align: center;
+    }
+
+    .banner_info{
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .bannerImg{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .ul_Active{
+        transform: translateX(0%);
+    }
+
+    .none{
+        display: none;
+    }
+
+    .follow_Count{
+        z-index: -1000;
+        padding: 0;
+    }
+
+    .hover_Con{
+        width: 60px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .flex_Count{
+        display: inline;
+    }
+
+    .T2_Count{
+        font-size: 24px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .link_Icon{
+        width: 70px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .P1{
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .first_Part{
+        flex-direction: column;
+    }
+
+    .info_Koce{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .info_KoceRight{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .kocetophoto{
+        width: 90%;
+        height: auto;
+    }
+
+    .koceto2{
+        width: 90%;
+        height: auto;
+    }
+
+    .hello{
+        top: 50px;
+    }
+
+    .banner_Text{
+        bottom: 15%;
+    }
+}
